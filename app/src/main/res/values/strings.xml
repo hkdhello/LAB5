@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ScoreKeep</string>
+    <string name="score1_value">100</string>
+    <string name="score2_value">20</string>
+    <string name="score2_label">Score 2</string>
+    <string name="score1_label">Score 1</string>
+    <string name="inc_button">+</string>
+    <string name="dec_button">-</string>
+    <string name="inc_button">+</string>
+    <string name="dec_button">-</string>
+    <string name="one_radio_button">Increment by 1</string>
+    <string name="two_radio_button">Increment by 2</string>
+    <string name="three_radio_button">Increment by 3</string>
+</resources>
