@@ -6,9 +6,10 @@
     <string name="score1_label">Score 1</string>
     <string name="inc_button">+</string>
     <string name="dec_button">-</string>
-    <string name="inc_button">+</string>
-    <string name="dec_button">-</string>
+    <string name="inc_button1">+</string>
+    <string name="dec_button1">-</string>
     <string name="one_radio_button">Increment by 1</string>
     <string name="two_radio_button">Increment by 2</string>
     <string name="three_radio_button">Increment by 3</string>
+    <string name="Label">SCORE KEEPER</string>
 </resources>

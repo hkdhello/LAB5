@@ -19,8 +19,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Label"
-            android:textScale="20sp"
-            android:background="@color/CrystalBlue"/>
+            android:textStyle="bold"
+            android:textSize="55dp"
+            android:background="@color/Yello"/>
 
         <TextView
             android:id="@+id/score1"
@@ -33,21 +34,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textAlignment="center"
             android:inputType="textPersonName"
             android:text="@string/score1_value"
-            android:autofillHints="" />
+            android:background="@color/UglyBlue"/>
 
         <Button
             android:id="@+id/+"
             android:layout_width="match_parent"
+            android:textAlignment="center"
             android:layout_height="wrap_content"
-            android:text="@string/inc_button" />
+            android:text="@string/inc_button"
+            android:textColor="@color/AcidGreen"
+            android:background="@color/colorPrimaryDark"/>
 
         <Button
             android:id="@+id/-"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/dec_button" />
+            android:text="@string/dec_button"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"/>/>
 
         <TextView
             android:id="@+id/score2"
@@ -60,20 +68,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textAlignment="center"
             android:inputType="textPersonName"
-            android:text="@string/score2_value" />
+            android:text="@string/score2_value"
+            android:background="@color/UglyBlue"/>
 
         <Button
             android:id="@+id/+_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/inc_button" />
+            android:text="@string/inc_button"
+            android:textAlignment="center"
+            android:textColor="@color/AcidGreen"
+            android:background="@color/colorPrimaryDark"/>
 
         <Button
             android:id="@+id/-_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/dec_button" />
+            android:text="@string/dec_button"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"/>
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -84,19 +100,22 @@
                 android:id="@+id/inc_by_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/one_radio_button" />
+                android:text="@string/one_radio_button"
+                android:textColor="@color/colorPrimary"/>
 
             <RadioButton
                 android:id="@+id/inc_by_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/two_radio_button" />
+                android:text="@string/two_radio_button"
+                android:textColor="@color/colorPrimaryDark"/>
 
             <RadioButton
                 android:id="@+id/inc_by_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/three_radio_button" />
+                android:text="@string/three_radio_button"
+                android:textColor="@color/colorAccent"/>
 
         </RadioGroup>
 

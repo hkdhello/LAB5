@@ -3,4 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="FlowerGirl">#f498ad</color>
+    <color name="AcidGreen">#b0bf1a</color>
+    <color name="CrystalBlue">#68a0b0</color>
+    <color name="UglyBlue">#0009ff</color>
 </resources>
